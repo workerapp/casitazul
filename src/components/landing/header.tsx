@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { DogHouse, Menu } from "lucide-react";
+import { House, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
@@ -35,7 +35,7 @@ export default function Header() {
     >
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="#" className="flex items-center gap-2">
-          <DogHouse className="h-6 w-6 text-primary" />
+          <House className="h-6 w-6 text-primary" />
           <span className="hidden font-bold sm:inline-block">
             La Casita Azul
           </span>
@@ -68,7 +68,7 @@ export default function Header() {
             <SheetContent side="right">
               <div className="flex flex-col gap-6 p-6">
                 <Link href="#" className="flex items-center gap-2" onClick={() => setOpen(false)}>
-                  <DogHouse className="h-6 w-6 text-primary" />
+                  <House className="h-6 w-6 text-primary" />
                   <span className="font-bold">La Casita Azul</span>
                 </Link>
                 <nav className="grid gap-4">
