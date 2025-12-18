@@ -54,7 +54,7 @@ export default function Header() {
         <div className="flex items-center gap-4">
           <Button
             asChild
-            className="hidden sm:inline-flex bg-accent text-accent-foreground hover:bg-accent/90"
+            className="hidden sm:inline-flex"
           >
             <Link href="#contact">Agendar Cita</Link>
           </Button>
@@ -83,7 +83,7 @@ export default function Header() {
                     </Link>
                   ))}
                 </nav>
-                <Button asChild className="bg-accent text-accent-foreground hover:bg-accent/90">
+                <Button asChild>
                   <Link href="#contact" onClick={() => setOpen(false)}>Agendar Cita</Link>
                 </Button>
               </div>

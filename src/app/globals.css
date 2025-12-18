@@ -16,8 +16,8 @@
     --secondary-foreground: 224 71% 4%;
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 54 100% 90%; /* Pale Yellow #FFFACD */
-    --accent-foreground: 224 71% 10%;
+    --accent: 207 51% 44%; /* Changed to primary blue for better contrast */
+    --accent-foreground: 210 20% 98%; /* Changed to primary-foreground */
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
     --border: 214.3 31.8% 91.4%;
@@ -52,7 +52,7 @@
     --secondary-foreground: 210 20% 98%;
     --muted: 215 27.9% 16.9%;
     --muted-foreground: 217.9 10.6% 64.9%;
-    --accent: 54 100% 85%;
+    --accent: 210 20% 98%;
     --accent-foreground: 224 71% 4%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 20% 98%;

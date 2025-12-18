@@ -32,7 +32,6 @@ export default function Hero() {
               <Button
                 asChild
                 size="lg"
-                className="bg-accent text-accent-foreground hover:bg-accent/90"
               >
                 <Link href="#contact">Agendar Cita Ahora</Link>
               </Button>
