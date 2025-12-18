@@ -35,7 +35,7 @@ export default function Hero() {
               >
                 <Link href="#contact">Agendar Cita Ahora</Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
+              <Button asChild size="lg" variant="secondary">
                 <Link href="#services">Ver Servicios</Link>
               </Button>
             </div>
