@@ -42,7 +42,7 @@ export default function Contact() {
                           href="tel:+521234567890"
                           className="text-muted-foreground transition-colors hover:text-primary"
                         >
-                          [Tu Número de Teléfono]
+                           300 756 1600
                         </a>
                       </div>
                     </div>
@@ -53,7 +53,7 @@ export default function Contact() {
                       <div>
                         <p className="font-semibold">Dirección</p>
                         <p className="text-muted-foreground">
-                          [Tu Dirección Completa]
+                          calle 84#20a-87
                         </p>
                       </div>
                     </div>
